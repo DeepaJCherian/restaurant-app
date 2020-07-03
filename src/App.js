@@ -48,7 +48,7 @@ render() {
             this.props.details.show &&
             <div className="flex-container">
               {this.props.details.data.restaurants.map((repo, index) => (
-                <div className="restaurant-container">
+                <div className="restaurant-container" key={index}>
                   <a href={repo.reserve_url}>
                     <h3>{repo.name}</h3>
                   </a>
