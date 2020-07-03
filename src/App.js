@@ -22,6 +22,7 @@ render() {
   return (
     <div className="App">
       <div className="main-container">
+        <h1>DISCOVER YOUR TASTE</h1>
         <div className="sub-container-one">
           <input
             className="search-field-first"

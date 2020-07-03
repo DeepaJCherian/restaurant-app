@@ -15,7 +15,7 @@
   /* text-align: center; */
   align-items: center;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 .App .main-container .sub-container-two{
   padding: 40px;
@@ -37,7 +37,11 @@
   justify-content: flex-start;
   align-items: center;
 } 
-
+h1{
+  color: white;
+  padding-top: 30px;
+  margin: 0px;
+}
 
 h3,h4,h5,h6{
   color: white;
